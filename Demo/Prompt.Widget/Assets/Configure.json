@@ -1,0 +1,67 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.6",
+  "body": [
+    {
+      "id": "Endpoint",
+      "type": "Input.Text",
+      "placeholder": "Widget Data Endpoint",
+      "value": "${Endpoint}"
+    },
+    {
+      "id": "Prompt",
+      "type": "Input.Text",
+      "placeholder": "Widget Prompt",
+      "isMultiline": true,
+      "height": "stretch",
+      "value": "${Prompt}"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "Type",
+      "value": "${Type}",
+      "style": "compact",
+      "choices": [
+        {
+          "title": "Azure OpenAI Service (Paid)",
+          "value": "Azure"
+        },
+        {
+          "title": "GitHub Models (Free)",
+          "value": "GitHub"
+        },
+        {
+          "title": "OpenAI (Paid)",
+          "value": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Execute",
+          "title": "Save",
+          "verb": "save"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Reset",
+          "verb": "reset"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Close",
+          "verb": "close"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "${Error}",
+      "color": "Attention",
+      "horizontalAlignment": "Center"
+    }
+  ]
+}

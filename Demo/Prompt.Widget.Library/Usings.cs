@@ -1,0 +1,17 @@
+﻿global using AdaptiveCards;
+global using Azure;
+global using Azure.AI.Inference;
+global using Microsoft.Extensions.AI;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using OpenAI;
+global using Polly;
+global using Prompt.Widget.Library.Config;
+global using Prompt.Widget.Library.Config.Internal;
+global using Prompt.Widget.Library.Models;
+global using Prompt.Widget.Library.Prompt;
+global using Prompt.Widget.Library.Prompt.Base;
+global using Prompt.Widget.Library.Providers;
+global using Prompt.Widget.Library.Providers.Internal;
+global using System.Text.Json;
+global using System.Text.Json.Nodes;
