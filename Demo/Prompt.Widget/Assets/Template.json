@@ -1,0 +1,45 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "🌟 Generative AI for Windows Widgets 🌟",
+      "size": "Medium",
+      "weight": "Bolder",
+      "wrap": true,
+      "style": "heading"
+    },
+    {
+      "type": "TextBlock",
+      "text": "✨ Dive into dynamic widgets powered by AI:",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "1. **Envision** purpose and scope.",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "2. **Leverage** AI for adaptive content.",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "3. **Iterate** with user feedback.",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "🚀 Craft captivating Windows Widgets with AI!",
+      "wrap": true,
+      "spacing": "Medium"
+    }
+  ]
+}

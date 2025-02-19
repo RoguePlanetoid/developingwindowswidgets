@@ -398,3 +398,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Demo/Prompt.Widget/appsettings.secret.json
+/Demo/Prompt.Widget.Tests/appsettings.secret.json

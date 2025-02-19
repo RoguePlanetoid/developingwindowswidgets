@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Prompt.Widget (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Prompt.Widget (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
